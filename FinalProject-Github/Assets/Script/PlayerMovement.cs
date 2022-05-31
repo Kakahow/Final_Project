@@ -26,7 +26,7 @@ public class PlayerMovement : MonoBehaviour
 
     public GameObject MiniMap;
 
-    public static int Player_Life = 3;
+    public static int Player_Life = 6;
     public GameObject dead;
     public PlayableDirector deadAnimation;
     public GameObject Life;

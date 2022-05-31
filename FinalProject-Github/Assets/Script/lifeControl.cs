@@ -18,17 +18,17 @@ public class lifeControl : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(PlayerMovement.Player_Life == 3)
+        if(PlayerMovement.Player_Life == 6)
         {
             X1.SetActive(false);
             X2.SetActive(false);
             X3.SetActive(false);
-        }else if(PlayerMovement.Player_Life == 2)
+        }else if(PlayerMovement.Player_Life == 4)
         {
             X1.SetActive(true);
             X2.SetActive(false);
             X3.SetActive(false);
-        }else if(PlayerMovement.Player_Life == 1)
+        }else if(PlayerMovement.Player_Life == 2)
         {
             X1.SetActive(true);
             X2.SetActive(true);
